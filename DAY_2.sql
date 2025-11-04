@@ -3,7 +3,7 @@ SELECT patient_id, name, age, satisfaction
 FROM patients 
 WHERE service="Surgery" AND satisfaction < 70;
 
--- Other Practice Queries:
+-- Other practice queries:
 -- 1. Find all patients who are older than 60 years.
 SELECT * FROM patients WHERE age > 60;
 
